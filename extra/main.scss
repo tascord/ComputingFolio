@@ -22,13 +22,15 @@ body {
     background-color: var(--dark);
     color: var(--white);
 
-
-    * {
+    *:not(i) {
         
-        width: 40%;
-        text-align: left;
-        
+        width: calc(min(40vw, 600px));
+        text-align: left;  
 
+    }
+
+    .accent, h1, h2 {
+        color: var(--accent);
     }
 
     h1:not(:first-of-type) {
@@ -37,8 +39,8 @@ body {
         border-top: 1px solid var(--white);
     }
 
-    :last-child {
-        margin-bottom: 10vh;
+    &:not(.full) {
+        padding-bottom: 10vh;
     }
 
 }
@@ -50,6 +52,7 @@ body {
     top: 0;
     padding: 1ch 2ch;
     font-size: 1.25rem;
+    width: fit-content;
 
 }
 

@@ -112,8 +112,12 @@ let index_modules = [];
 
 /**
  * Generates php files for every module, including sub-module headings.
+ * Index starts at 2 as I made this post module one and because zero indexing tingz
  */
 for (let module_index = 2; module_index <= 12; module_index++) {
+
+    console.log('Work in progress. Exiting to avoid overwriting work.');
+    process.exit(1);
 
     // Generate sub-module headers
     let module_headers = modules[module_index].map((value, index) =>

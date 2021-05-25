@@ -26,9 +26,13 @@ body {
   color: var(--white);
 }
 
-body * {
-  width: 40%;
+body *:not(i) {
+  width: calc(min(40vw, 600px));
   text-align: left;
+}
+
+body .accent, body h1, body h2 {
+  color: var(--accent);
 }
 
 body h1:not(:first-of-type) {
@@ -37,8 +41,8 @@ body h1:not(:first-of-type) {
   border-top: 1px solid var(--white);
 }
 
-body :last-child {
-  margin-bottom: 10vh;
+body:not(.full) {
+  padding-bottom: 10vh;
 }
 
 .back {
@@ -47,6 +51,9 @@ body :last-child {
   top: 0;
   padding: 1ch 2ch;
   font-size: 1.25rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 a {

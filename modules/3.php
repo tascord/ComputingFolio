@@ -28,6 +28,7 @@
     <a href="/folio" class="back">Back to index</a>
 
 	<h1 id="3"> 3 &mdash; Datatypes </h1>
+	<span><a href="3/single-doubleQuotes.php">Head to single-doubleQuotes.php</a> &mdash; Single and double quotes playground.</span>
 
 </body>
 

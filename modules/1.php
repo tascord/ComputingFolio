@@ -86,13 +86,13 @@
 	<span>
 		<?php echo "
 
-	<p> Lorem ipsum dolor sit amet. </p>
-	Lorem ipsum dolor sit amet. /n \n
-	Lorem ipsum dolor sit amet. /r \r
-	Lorem ipsum dolor sit amet. <br>
-	Lorem ipsum dolor sit amet.
+		<p> Lorem ipsum dolor sit amet. </p>
+		Lorem ipsum dolor sit amet. /n \n
+		Lorem ipsum dolor sit amet. /r \r
+		Lorem ipsum dolor sit amet. <br>
+		Lorem ipsum dolor sit amet.
 
-" ?>
+		" ?>
 	</span>
 
 	<h1 id="1.4"> Module 1.4 &mdash; Commenting </h1>
