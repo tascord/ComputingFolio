@@ -17,40 +17,65 @@
 
     <a href="../3.php" class="back">Back to 3.php</a>
 
+    <h2>Quotes & Concat</h2>
+
     <!-- Script One -->
     <?php
 
     $number = 123;
-
     echo "The number is: $number";
 
-    // will print: The number is: 123
-
     ?>
+
+    <br>
 
     <!-- Script Two -->
     <?php
 
     $number = 123;
-
     echo "The number is: $number";
-
-    // will print: The number is: 123
-
     echo '<br>';
-
     echo "Your code isn't bad, but it could be better";
-
-    // Your code isn't bad, but it could be better
 
     ?>
 
+    <br>
+
     <!-- Script Three -->
     <?php
+
+    $firstName = 'Alpha';
+    $lastName = 'Beta';
+    $myVar = 'Hi, my name is ' . $firstName . ' ' . $lastName . '.';
+    echo $myVar;
+
+    ?>
+
+    <br>
+
+    <!-- Script Four -->
+    <?php
+
     $firstName = 'Alpha';
     $lastName = 'Beta';
     $myVar = "Hi, my name is $firstName $lastName.";
     echo $myVar;
+
+    ?>
+
+    <br>
+
+    <h2>Type casting</h2>
+
+    <!-- Type casting -->
+    <?php
+
+    $x = "13.3333";
+    var_dump($x);
+    echo "<br>";
+    $y = (float) $x;
+    var_dump($y);
+
     ?>
 
 
