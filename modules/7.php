@@ -28,6 +28,8 @@
     <a href="/folio" class="back">Back to index</a>
 
 	<h1 id="7"> 7 &mdash; Conditional statements </h1>
+	<span><a href="7/conditionals.php">Head to conditionals.php</a> &mdash; Gates and stuff!</span>
+	<span><a href="7/test-datatype.php">Head to test-datatype.php</a> &mdash; Datatypes!</span>
 
 </body>
 

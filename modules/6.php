@@ -28,6 +28,9 @@
     <a href="/folio" class="back">Back to index</a>
 
 	<h1 id="6"> 6 &mdash; Functions </h1>
+	<span><a href="6/functions.php">Head to functions.php</a> &mdash; Percentage discounts!</span>
+	<span><a href="6/dateTime.php">Head to dateTime.php</a> &mdash; Some information about the date and time!</span>
+
 
 </body>
 

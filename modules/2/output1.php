@@ -15,6 +15,8 @@
 
 <body>
 
+    <a href="../2.php" class="back">Back to 2.php</a>
+
     <p>
 
         <?php

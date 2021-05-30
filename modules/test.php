@@ -21,17 +21,7 @@
 
     <?php
 
-    $Fname = "Oscar";
-    $Lname = "Hill";
-
-    function make_full_name($first, $last)
-    {
-        print $first . ' ' . $last . "<br>";
-    }
-
-    make_full_name('first name', 'last name');
-    make_full_name("Jo", "Smith");
-    make_full_name($Fname, $Lname);
+    echo var_dump(getdate())   
 
     ?>
 

@@ -28,6 +28,7 @@
     <a href="/folio" class="back">Back to index</a>
 
 	<h1 id="5"> 5 &mdash; Operators </h1>
+	<span><a href="5/operators.php">Head to operators.php</a> &mdash; Addition to wages.php!</span>
 
 </body>
 
